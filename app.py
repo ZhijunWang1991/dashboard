@@ -158,5 +158,5 @@ def upload_data():
         }
     })
 
-#if __name__ == '__main__':
-    #app.run(debug=False)  # Enable debug for development; turn off in production
+if __name__ == '__main__':
+    app.run(debug=False)  # Enable debug for development; turn off in production
