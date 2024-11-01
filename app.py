@@ -8,7 +8,7 @@ import base64
 import io
 from itertools import cycle, product
 
-app = dash.Dash(__name__)
+app = Dash(__name__)
 
 app.layout = html.Div([
     html.H1("Multi-Group Significance Comparison Dashboard"),
