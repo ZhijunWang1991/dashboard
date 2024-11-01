@@ -1,7 +1,8 @@
-dash
+dash==2.0.0
+flask==2.0.1
+gunicorn==20.1.0
 plotly
 pandas
 numpy
 scipy
 statsmodels
-gunicorn==20.1.0

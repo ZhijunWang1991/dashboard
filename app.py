@@ -9,6 +9,7 @@ import io
 from itertools import cycle, product
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Multi-Group Significance Comparison Dashboard"),
