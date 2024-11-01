@@ -144,5 +144,5 @@ def update_output(contents):
 
     return fig, summary_df.to_dict('records'), summary_columns, comparison_df.to_dict('records'), comparison_columns
 
-# if __name__ == '__main__':
-#     app.run_server(debug=False, host="0.0.0.0", port=8000)
+#if __name__ == '__main__':
+    #app.run_server(debug=False)
