@@ -1,8 +1,9 @@
 dash==2.0.0
-flask==2.0.1
+flask
 gunicorn==20.1.0
 plotly
 pandas
 numpy
 scipy
 statsmodels
+werkzeug==2.2.2
